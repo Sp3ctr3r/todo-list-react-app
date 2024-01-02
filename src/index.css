@@ -1,0 +1,106 @@
+body {
+  margin-top: 3em;
+  background-color: #ae535398;
+}
+
+.input {
+  width: 100%;
+}
+
+.task {
+  width: 80%;
+  margin-top: 1em;
+  border-radius: 24px;
+  font-size: 24px;
+  text-align: center;
+  z-index: 3;
+  outline: none;
+}
+
+.task:hover,
+:focus {
+  background-color: #96ae5398;
+  color: black;
+  transition: all 0.3s ease-in;
+  border-color: aqua;
+}
+
+.btn {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 24px;
+  z-index: 2;
+  background-color: rgba(83, 83, 174, 0.6);
+}
+
+.btn:hover {
+  color: red;
+  transition: all 0.4s ease-in-out;
+}
+
+.mainBox {
+  height: 650px;
+  padding: 0.5em;
+}
+
+.topSec {
+  border: 1px solid red;
+  border-radius: 24px;
+  background-color: rgba(174, 83, 83, 0.6);
+}
+
+.topSec:hover {
+  box-shadow: inset 5px 6px 6px 1px lightblue;
+  transition: all .5s ease;
+  border-color: aqua;
+}
+
+.taskList {
+  height: 70%;
+  border: 1px solid black;
+  border-radius: 24px;
+  background-color: rgba(174, 83, 83, 0.6);
+  overflow-y: scroll;
+}
+
+.taskList::-webkit-scrollbar {
+  width: 12px;
+}
+
+.taskList::-webkit-scrollbar-thumb {
+  background-color: #8c8c8c;
+  /* Scroll bar rengi */
+  border-radius: 10px;
+  /* Scroll bar köşe yuvarlaklığı */
+}
+
+.taskList::-webkit-scrollbar-track {
+  background-color: transparent;
+  /* Scroll bar track rengi */
+}
+
+.taskList:hover {
+  background-color: #96ae5398;
+  color: black;
+  transition: all 0.2s ease-in;
+  border-color: aqua;
+  box-shadow: inset 5px 6px 6px 1px lightblue;
+}
+
+.table {
+  width: 95%;
+  border-radius: inherit;
+  padding: 2em;
+}
+
+.table>th {
+  text-align: center;
+}
+
+.tableBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  border-radius: inherit;
+}
